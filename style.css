@@ -1,7 +1,19 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("fonts/PTSans.ttf");
+}
+@font-face {
+    font-family: "PTSans";
+    src: url("fonts/PTSans bold.ttf");
+}
+@font-face {
+    font-family: "HelveticaNeueBold";
+    src: url("fonts/Helvetica Neu Bold.ttf");
+}
 body{
     background: #0e0e0e;
     margin: 0;
-    font-family: "PT Sans";
+    font-family: "PTSans";
 }
 #wrapper{
     width: 1400px;
@@ -79,7 +91,7 @@ li{
 }
 .menu{
     padding-left: 80px;
-    font-family: HelveticaNeue;
+    font-family: "HelveticaNeueBold";
     text-align: center;
     font-size: 22px;
     font-weight: bold;
