@@ -36,6 +36,7 @@ body{
     background: black;
     padding-top: 95px;
     padding-bottom: 120px;
+
 }
 .w320{
     width: 320px;
@@ -94,7 +95,7 @@ li{
 }
 .menu{
     padding-left: 80px;
-    font-family: "HelveticaNeueBold";
+    font-family: "PTSansBold";
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -177,7 +178,7 @@ li{
     font-size: 22px;
     margin-bottom: 15px;
     color: #010101;
-    font-family: "PTSansBold";
+    font-family: "PTSans";
 }
 .sub-email{
     text-align: center;
@@ -215,6 +216,7 @@ li{
     background: #fcdb00;
     padding: 15px 35px;
     font-weight: bold;
+    border: none;
 }
 .icons{
     text-align: center;
@@ -226,11 +228,14 @@ li{
     font-size: 45px;
 }
 .info{
-    margin-top: 135px;
+    margin-top: 125px;
     color: #fff;
     font-size: 16px;
 }
 .add{
     width: 20%;
-    margin-left: 0;
+    margin-left: 15px;
+}
+.mg ul  {
+    margin:0 90px 0 15px;
 }
